@@ -1200,7 +1200,7 @@ main .item-blog__load {
   font-weight: 400;
   font-size: 16px;
   line-height: 150%;
-  color: #4A7DE3;
+  color: #4a7de3;
   background-color: #102142;
   border-radius: 10px;
   top: 13px;
@@ -2148,12 +2148,32 @@ footer .nav-footer__nav a.active {
     font-size: 30px;
   }
 
+  main .content .content__button {
+    flex-direction: column;
+  }
+
   main .content .content__button .fill {
-    min-width: 0;
+    max-width: 290px;
+    min-width: 290px;
   }
 
   main .content .content__button .nofill {
-    min-width: 0;
+    max-width: 290px;
+    min-width: 290px;
+  }
+
+  main .row-begin .click-steps {
+    flex-direction: column;
+  }
+
+  main .row-begin .click-steps * {
+    max-width: 290px;
+    min-width: 290px;
+  }
+
+  main .steps-advice__button {
+    max-width: 290px;
+    min-width: 290px;
   }
 
   main .item-plan__list li {
